@@ -1,0 +1,272 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-image: url(./assets/pom.jpg);
+    background-size: 100%;
+    /* background-position: center; */
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    height: 700px;
+}
+
+.cv {
+    display: inline-block;
+    height: 270px;
+    vertical-align: middle;
+}
+
+.wlc {
+    color: white;
+    font-size: 30px;
+}
+
+.konten {
+    background-color: #b96223;
+    padding: 1px;
+    position: sticky;
+    top: 1px;
+}
+
+.icon {
+    float: left;
+    /* border-radius: 100px; */
+}
+
+.mobile {
+    font-family: "playwrite NL", cursive;
+    font-size: 13px;
+    font-weight: bolder;
+    font-style: normal;
+    background-color: grey;
+    display: none;
+    width: 70px;
+    text-align: center;
+    /* position: relative;
+    left: -30px;
+    top: -8px; */
+}
+
+.desktop {
+    background-color: white;
+    background-size: contain;
+    text-align: center;
+    width: 70px;
+    position: relative;
+    left: 30px;
+    /* top: -13px; */
+}
+
+.tab {
+    text-align: right;
+    list-style: none;
+}
+
+.ktab {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: white;
+}
+
+.liImg {
+    list-style: none;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;    
+    font-size: 20px;
+    color: white;
+}
+
+.itr {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px black;
+}
+.itr:hover {
+    /* box-sizing: content-box;
+    width: 100%; */
+    border-radius: 75px;
+    box-shadow: 0px 10px 5px black;
+    transform: translateY(-10px);
+}
+
+body {
+    background-color: #565157;
+}
+
+.xpr1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.xpr2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.avt1 {
+    height: 200px;
+    border-radius: 150px;
+    /* position: relative;
+    left: 300px; */
+    margin-top: 50px;
+}
+
+.avt2 {
+    height: 200px;
+    border-radius: 150px;
+    margin-top: 50px;
+    /* position: absolute;
+    right: 380px; */
+}
+
+.liP {
+    list-style: none;
+}
+
+.xp {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+
+}
+
+hr {
+    margin: 50px 200px 50px 200px;   
+}
+
+.my {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.kontak {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.port {
+    text-align: center;
+}
+
+.contact {
+    width: 50%;
+    float: left;
+}
+
+#Nama {
+    width: 100%;
+}
+
+[placeholder="Nama"] {
+    text-align: center;
+}
+
+#Email {
+    width: 100%;
+}
+
+[placeholder="Email"] {
+    text-align: center;
+}
+
+#Pesan {
+    width: 100%;
+    height: 200px;
+}
+
+[placeholder="Pesan"] {
+    text-align: center;
+}
+
+label {
+    color: white;
+    margin: 10px;
+}
+
+input {
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.kirim {
+    margin: 5px 0px 25px 10px;
+    /* padding: 2px 285px 2px 285px; */
+    text-align: center;
+}
+
+.kirimB {
+    background-color: #b96223;
+    color: white;
+    border: none;
+    padding: 4px 49% 4px 48.5%;
+    border-radius: 30px;
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+
+.kirimB:hover {
+    background-color: #f3771e;
+    box-shadow: 0px 10px 5px black;
+    transform: translateY(-10px);
+}
+
+.kirimB:active {
+    background-color: #565157;
+    box-shadow: 0px 5px 5px black;
+    transform: translateY(-5px);
+}
+
+.kirimB:focus {
+    outline: none;
+}
+
+.contacts {
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.ctc {
+    margin: 10px;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: black ;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+@media only screen and (max-width:600px){
+    html {
+        font-size: 12px;
+    }
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+}
